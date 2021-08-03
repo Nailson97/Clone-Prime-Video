@@ -1,0 +1,409 @@
+@font-face {
+    font-family:"Amazon Ember" ;
+    src: url(../fonts/Amazon-Ember-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amazon Ember";
+}
+
+body {
+    width: 100%;  
+}
+
+#inicio {
+    height:73px;
+    background-color: #1B252F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+#inicio > img {
+    width: 115px;
+    margin-left:44px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(242,244,246,.9);
+    font-weight: 200;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 44px;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    padding-left:7px;
+}
+
+#login {
+    padding-left:45px;
+}
+
+li img {
+    padding-left:90px;
+    height: 21px;
+}
+
+a:hover {
+    color: white;
+}
+
+#banner {
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url('../imagens/Banner.jpg');
+    background-position: right top;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    height:632px;
+}
+
+#banner  h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.centralisado{
+    margin-left:62px;
+}
+
+.textos  h1 {
+    padding-top:50px;
+}
+
+.textos p {
+    color: #F7F3F7;
+    width:560px;
+    font-size: 21px;
+    padding-top:27px;
+    font-weight: normal;
+}
+
+#banner button {
+    height:56px;
+    width: 280px;
+    background-color: #107AB0;
+    color:white;
+    font-size:17px;
+    font-family: 'Amazon Ember';
+    border: 0;
+    border-radius: 2px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.button {
+    margin-top:40px;
+}
+
+.linhas {
+    width: 280px;
+    padding-top:25px;
+}
+
+.dividir-esquerdo {
+    width:44%;
+    border-bottom:1px solid white;
+    float:left;
+}
+
+.dividir-direito {
+    width:44%;
+    border-bottom: 1px solid white;
+    float:right;
+}
+
+#meio {
+    color:white;
+    position: relative;
+    bottom:12px;
+    margin:auto;
+    padding-left:7px;
+}
+
+.botao2{
+    height:78px!important;
+    text-align: center!important;
+    padding:10px!important;
+    margin-top:8px!important;
+}
+
+.preco {
+    color:#F7F3F7;
+    font-size: 15px;
+    width: 560px;
+    font-weight: 100;
+    margin-top:44px;
+}
+
+.centralisado2 {
+    margin-left:44px;
+    margin-right:40px;
+}
+
+#canais-prime {
+    width:1200px;
+    background-color: white;
+    height:466px;
+}
+
+.texto-canais {
+    width: 49%;
+    float:left;
+}
+
+.texto-canais h1 {
+    Color:#000000;
+    font-size: 43px;
+    margin-top:91px;
+    font-weight: normal;   
+}
+
+.texto-canais p {
+    margin-top:20px;
+    font-size:21px;
+    Color:#000000;
+    font-weight: normal;
+}
+
+.imagem-canais {
+    float:right;
+    width:48%;
+    height:100%;
+    margin-top: 32px;
+}
+
+.imagem-canais img {
+    width:188px; 
+    padding: 4px;
+}
+
+.imagem-canais img:hover {
+    box-shadow: 10px 10px 15px 0 rgb(0 0 0 / 75%);
+    padding:0;
+}
+
+.container-series {
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url('../imagens/banner-series.jpg');
+    height:480px;
+    background-size: cover;
+    position:relative;
+}
+
+.series-texto {
+    color:white;
+    margin-top:100px;
+    position:absolute;
+    right: 3%;
+    float:right;
+    width:41%;
+    height: 300px;;
+}
+
+.series-texto h1 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.series-texto p {
+    font-size: 19px;
+    font-weight: normal;
+    margin-top:30px;
+    width:90%;
+}
+
+.series-texto button {
+    width:317px;
+    background-color: #0F79AF;
+    height:56px;
+    color: white;
+    font-size:17px;
+    border:0;
+    margin-top:48px;
+    cursor:pointer;
+}
+
+.container-beneficios {
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url('../imagens/beneficios.jpg');
+    height: 480px;
+    background-size:100%;
+    color: white;
+    width:100%;
+}
+
+.beneficios-texto {
+    width: 44%;
+}
+
+.beneficios-texto h1 {
+    font-size:40px;
+    padding-top:60px;
+    font-weight: normal;
+}
+
+.beneficios-texto p {
+    font-size: 20px;
+    font-weight: normal;
+    width:88%;
+    margin-top: 23px;
+}
+
+.beneficios-texto button {
+    width:317px;
+    background-color: #0F79AF;
+    height:56px;
+    color: white;
+    font-size:17px;
+    border:0;
+    margin-top:48px;
+    cursor:pointer;
+}
+
+.cotainer-familia {
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url('../imagens/familia.jpg');
+    background-size:100%;
+    height: 480px;
+    color:white;
+}
+
+.texto-familia {
+    width:44%;
+    float:right;
+}
+
+.texto-familia h1 {
+    margin-top:60px;
+    font-size:40px;
+    font-weight: normal;
+}
+
+.texto-familia p {
+    width:88%;
+    font-size:20px;
+    font-weight: normal;
+    margin-top: 23px;
+}
+
+.texto-familia button {
+    width:317px;
+    background-color: #0F79AF;
+    height:56px;
+    color: white;
+    font-size:17px;
+    border:0;
+    margin-top:48px;
+    cursor:pointer;
+}
+
+.dispositivos {
+    background-color: white;
+    width:100%;
+    height: 520px;
+    color: black;
+    margin-top: 68px;
+    display: flex;
+}
+
+.container-esquerdo {
+    width:33%;
+    margin-left:116px;
+}
+
+.container-esquerdo h1 {
+    font-size:36px;
+    font-weight: normal;
+}
+
+.container-esquerdo p {
+    text-align: center;
+    margin-top:13px;
+    font-size:21px;
+    font-weight: normal;
+    width:90%;
+    margin-left:-30px;
+}
+
+.container-meio {
+    width:33%;
+}
+
+.container-meio h1 {
+    font-size:36px;
+    font-weight: normal;
+    width:90%;
+    text-align: center;
+}
+
+.container-meio p {
+    text-align: center;
+    margin-top:13px;
+    font-weight: normal;
+    font-size:21px;
+    width:90%;
+}
+
+.container-meio img {
+    margin-left:30px;
+}
+
+.container-direita {
+    width:33%;
+}
+
+.container-direita h1 {
+    font-size:34px;
+    text-align: center;
+    width:90%;
+    font-weight: normal;
+}
+
+.container-direita p {
+    font-size:21px;
+    margin-top:13px;
+    width:90%;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container-direita img {
+    margin-left:30px;
+}
+
+.direitos {
+    width:100%;
+    height:130px;
+    background-color: #222222;
+    text-align: center;   
+    font-size:15px; 
+}
+
+.direitos img {
+    margin-top:25px;
+}
+
+.direitos a {
+    color: #0f79af;
+    font-weight: normal;
+    display: inline-block;
+    text-align: center;
+}
+
+ul {
+    display:flex;
+    justify-content: center;
+}
+
+ul li {
+    color: #b1b1b1;
+    font-weight: normal;
+}
+
